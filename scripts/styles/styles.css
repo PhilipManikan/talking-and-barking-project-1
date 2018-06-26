@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+#borderlist{
+        height: 453px;
+        border-color: #6593dc!;
+        border-radius: 15%;
+        margin-bottom: 3px;
+}
+.border {
+    border: 1px solid #6593dc!important;
+}
+.rounded {
+    border-radius: 2.25rem!important;
+}
+
+#go {
+    background: #61a15a ;
+    border:  #022208 ;
+    font-family:sans-serif;
+
+}
+
+#pagenext {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+    left: 300px;
+
+  
+}
+
+#pageprevious{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+    left: 200px; 
+}
+
+body {
+    background-color: rgba(231, 245, 239, 0.856); 
+    background-image: url(../components/images/pawprint.png);
+    background-repeat: no-repeat;
+    background-size: 1990px 1080px;   
+}
+
+.size {
+    background: #b0dfb0;
+    color: gray;
+    border: #57ad68
+}
+
+.btn-primary{
+    background: #b7c8d3;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color:#15e681;
+  font-size: 15px;
+  padding: 9px 25px 10px 21px;
+  text-decoration: none;
+  
+ 
+ }
+ 
+ .btn-primary:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+  }
+
+#search{
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: arvo; 
+    font-style: italic;
+ }
+
+#Capture{
+    border-radius: 25%;
+    width: 150px;
+    margin-left: 460px;
+    margin-top: 5px;  
+}
+
+#listresult{
+    margin-top: 10px;
+    margin-left: 20px;
+    color:#000000;
+
+}
+
+#dogArray{
+    
+    width: 500px;
+
+}
+
